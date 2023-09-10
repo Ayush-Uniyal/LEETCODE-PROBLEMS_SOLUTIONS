@@ -8,7 +8,7 @@ public:
     map<int, int> mpp;
 
     // least occurrence of the majority element:
-    int mini = int(n / 3) + 1;
+    int mini = (n / 3) + 1;
 
     //storing the elements with its occurnce:
     for (int i = 0; i < n; i++) {
